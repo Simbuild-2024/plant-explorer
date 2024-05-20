@@ -1,0 +1,65 @@
+GroundHeatExchanger:Vertical,
+    ,                                  !- Ground Heat Exchanger Name
+    GHE Inlet Node,                    !- GHE Inlet Node
+    GHE Outlet Node,                   !- GHE Outlet Node
+    0.049887,                          !- Max GHE FlowRate {m3/s}
+    70,                                !- Number of Boreholes
+    152.40,                            !- Bore Hole Length {m}
+    0.07620,                           !- Bore Hole Radius {m}
+    2.683,                             !- Thermal conductivity (k) of Ground {W/m-K}
+    2.5708E+06,                        !- Density x Specific Heat (rhoCp) of Ground {J/m^3-K}
+    4.1966E+03,                        !- Specific Heat of Fluid {J/kg-K}
+    12.9,                              !- Undisturbed temperature of Ground {C}
+    0.049887,                          !- Design GHE Vol Flowrate {m3/s}
+    2.077,                             !- Thermal conductivity (k) of Grout {W/m-K}
+    0.389,                             !- Thermal conductivity (k)  of Pipe {W/m-K}
+    0.609,                             !- Thermal conductivity (k) of Fluid {W/m-K}
+    999.872,                           !- Density of Fluid (rho) {Kg/m^3}
+    0.001,                             !- Dynamic viscosity of Fluid (mu) {N-s/m/62}
+    0.04216,                           !- Pipe Outside Diameter {m}
+    0.002,                             !- U-Tube Separation (Shank spacing) {m}
+    0.00937,                           !- Pipe Wall Thickness {m}
+    20,                                !- Maximum length of simulation in years
+    41,                                !- Number of data pairs of the G function
+    ! The G-function is defined by the following data pairs
+    -15.00,   -0.592245,     !- LNTTS/GFNC Pair 1
+    -14.50,   -0.342245,     !- LNTTS/GFNC Pair 2
+    -14.00,   -0.092245,     !- LNTTS/GFNC Pair 3
+    -13.50,   0.157755,      !- LNTTS/GFNC Pair 4
+    -13.00,   0.407755,      !- LNTTS/GFNC Pair 5
+    -12.50,   0.657755,      !- LNTTS/GFNC Pair 6
+    -12.00,   0.907755,      !- LNTTS/GFNC Pair 7
+    -11.50,   1.157755,      !- LNTTS/GFNC Pair 8
+    -11.00,   1.407755,      !- LNTTS/GFNC Pair 9
+    -10.50,   1.657755,      !- LNTTS/GFNC Pair 10
+    -10.00,   1.907755,      !- LNTTS/GFNC Pair 11
+    -9.50,    2.157755,      !- LNTTS/GFNC Pair 12
+    -9.00,    2.407755,      !- LNTTS/GFNC Pair 13
+    -8.50,    2.657755,      !- LNTTS/GFNC Pair 14
+    -8.00,    2.907755,      !- LNTTS/GFNC Pair 15
+    -7.50,    3.157755,      !- LNTTS/GFNC Pair 16
+    -7.00,    3.407755,      !- LNTTS/GFNC Pair 17
+    -6.50,    3.657755,      !- LNTTS/GFNC Pair 18
+    -6.00,    3.907755,      !- LNTTS/GFNC Pair 19
+    -5.50,    4.157755,      !- LNTTS/GFNC Pair 20
+    -5.00,    4.407755,      !- LNTTS/GFNC Pair 21
+    -4.50,    4.657755,      !- LNTTS/GFNC Pair 22
+    -4.00,    6.755316,      !- LNTTS/GFNC Pair 23
+    -3.50,    9.208137,      !- LNTTS/GFNC Pair 24
+    -3.00,    11.108137,     !- LNTTS/GFNC Pair 25
+    -2.50,    17.275607,     !- LNTTS/GFNC Pair 26
+    -2.00,    23.458292,     !- LNTTS/GFNC Pair 27
+    -1.50,    33.322808,     !- LNTTS/GFNC Pair 28
+    -1.00,    48.377675,     !- LNTTS/GFNC Pair 29
+    -0.50,    73.409518,     !- LNTTS/GFNC Pair 30
+    0.00,     80.685877,     !- LNTTS/GFNC Pair 31
+    0.50,     83.282284,     !- LNTTS/GFNC Pair 32
+    1.00,     83.719598,     !- LNTTS/GFNC Pair 33
+    1.50,     83.913331,     !- LNTTS/GFNC Pair 34
+    2.00,     84.004843,     !- LNTTS/GFNC Pair 35
+    2.50,     84.048071,     !- LNTTS/GFNC Pair 36
+    3.00,     84.068490,     !- LNTTS/GFNC Pair 37
+    3.50,     84.078136,     !- LNTTS/GFNC Pair 38
+    4.00,     84.082692,     !- LNTTS/GFNC Pair 39
+    4.50,     84.084844,     !- LNTTS/GFNC Pair 40
+    5.00,     84.085860;     !- LNTTS/GFNC Pair 41
